@@ -136,7 +136,7 @@ const Select = React.createClass({
 			inputValue: '',
 			isFocused: false,
 			isLoading: false,
-			isOpen: false,
+			isOpen: this.props.isOpen ? true : false,
 			isPseudoFocused: false,
 			required: false,
 		};
